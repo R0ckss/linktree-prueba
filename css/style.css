@@ -10,28 +10,37 @@ body
 
 .container
 {
+	width: 100%;
 	padding: 0 15px;/*centrar*/
-	margin: 0 auto;/*centrar*/
+	margin: 0px auto;/*centrar*/
 	align-content: center;/*centrar elementos*/
 	text-align: center;/*centrar texto*/
 }
 
 .logo
 {
-	margin-top: 33px;
+	margin-top: 5vw;
+}
+
+.imagen1
+{
+	width: 15vw;
 }
 
 .boton
 {
-	width: 250px;
+	width: 15vw;
 	border: 1px solid #000000; /*anchura, estilo y color borde*/
-	padding: 10px 60px; /*espacio alrededor texto*/
+	padding-top: 0.5vw;/*espacio arriba del texto*/
+	padding-bottom: 0.5vw;/*espacio abajo del texto*/
+	margin-top: 1%;
 	background-color: #000000; /*color botón*/
 	color: #a7d129; /*color texto*/
 	text-decoration: none; /*decoración texto*/
 	border-radius: 15px; /*bordes redondos*/
 	display: inline-block;
-	width: 15%;
+	font-size: 1.5vw;
+	font-weight: bold;
 }
 
 .boton:hover
@@ -43,8 +52,11 @@ body
 
 .autor
 {
-	font-size: 15px;
+	font-size: 1vw;
 	color: #a7d129;
+	margin-top: 1%;
+	width: 20vw;
+	display: inline-block;
 }
 
 
@@ -57,24 +69,32 @@ body
 
 	.logo
 	{
-		width: 100%;
-		margin-top: 33%;
+		margin-top: 5vw;
 		margin-right: 25%;
 		margin-left: 25%;
+	}
+
+	.imagen1
+	{
+		width: 100%;
+		margin-top: 18vw;
 	}
 
 	.boton
 	{
 		width: 100%;
-		margin-right: 25%;
-		margin-left: 25%;
+		font-size: 10vw;
+		font-weight: bold;
+		padding-top: 3vw;/*espacio arriba del texto*/
+		padding-bottom: 3vw;/*espacio abajo del texto*/
+		margin-top: 9%;
 	}
 
 	.autor
 	{
 		width: 100%;
-		margin-right: 25%;
-		margin-left: 25%;
+		font-size: 5vw;
+		margin-top: 9%;
 	}
 }
 
